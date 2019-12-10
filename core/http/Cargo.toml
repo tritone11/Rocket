@@ -26,7 +26,7 @@ time = "0.1"
 indexmap = "1.0"
 rustls = { version = "0.15", optional = true }
 state = "0.4"
-cookie = { version = "0.12", features = ["percent-encode"] }
+cookie = { git = "https://github.com/tritone11/cookie-rs", features = ["percent-encode"] }
 pear = "0.1"
 unicode-xid = "0.1"
 
